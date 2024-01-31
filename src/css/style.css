@@ -1,0 +1,638 @@
+@import url(reset.css);
+
+body{
+    font-family: 'Poppins';
+}
+
+header{
+    max-width: 1160px;
+    margin: 0 auto;
+}
+.logo {
+    background: url(../img/logo.svg);
+    width: 64px;
+    height: 20px;
+    margin-right: 442px;
+    
+}
+header *{
+    display: inline-block;
+
+}
+header{
+    margin-bottom: 104px;
+    /* padding: 50px 130px; */
+    padding-top: 50px;
+}
+.navigation li:not(:last-child){
+    margin-right: 61px;
+}
+.navigation li{
+    color: #1E1C31;
+    font-size: 14px;
+    font-family: Poppins;
+    letter-spacing: 0.42px;
+}
+.navigation li:hover{
+    color: #4270EC;
+}
+.navigation{
+}
+.block {
+    max-width: 1179px;
+    margin: 0 auto;
+
+}
+h5{
+    color: #1E1C31;
+    font-size: 14px;
+    font-family: Poppins;
+    font-weight: 500;
+    text-transform: uppercase;
+    line-height: 24px;
+    letter-spacing: 0.70px;
+}
+.welcome * {
+    font-size: 0;
+
+}
+.welcome-text {
+    max-width: 503px;
+    margin-right: 74px;
+    display: inline-block;
+}
+.welcome{
+    margin-bottom: 110px;
+}
+.welcome-text h1{
+    color: #1E1C31;
+    font-size: 60px;
+    font-family: "Poppins";
+    font-weight: 600;
+    line-height: 76px;
+    margin-bottom: 63px;
+}
+.welcome-text h3{
+    color: rgba(30, 28, 49, 0.60);
+    font-size: 18px;
+    font-family: Poppins;
+    font-weight: 400;
+    line-height: 29px;
+    margin-bottom: 62px;
+}
+.welcome-text a{
+    color: white;
+    font-size: 14px;
+    font-family: Poppins;
+    font-weight: 500;
+    line-height: 29px;
+    padding: 20px 37px;
+    background-color: #4270EC;
+    border-radius: 15px;
+}
+.welcome-text a:hover{
+    background-color: #0f1a37;
+}
+.welcome-picture {
+    vertical-align: top;
+    display: inline-block;
+    width: 400px;
+    height: 550px;
+    background: url(../img/rectangle2.png) 0 0/ cover no-repeat;
+    
+    margin-right: 20px;
+}
+.welcome-picture2{
+    vertical-align: top;
+    display: inline-block;
+    width: 150px;
+    height: 550px;
+    background: url(../img/welcome2.png) 0 0/ cover no-repeat;
+}
+.wrapper {
+    margin-bottom: 240px;
+}
+.list li{
+    display: inline-block;
+    max-width: 332px;
+    position: relative; 
+    padding-left: 90px;
+
+}
+.list li:not(:last-child){
+margin-right: 75px;
+}
+.list li::before{
+    content: "";
+    background: url(../img/list-bg1.svg) no-repeat;
+    width: 70px;
+    height: 70px;
+    display: inline-block;
+    position: absolute;
+    left: 0;
+}
+.list h2{
+    color: #1E1C31;
+    font-size: 18px;
+    font-family: Poppins;
+    font-weight: 500;
+    line-height: 23px;
+}
+.list h3{
+    color: rgba(30, 28, 49, 0.50);
+    font-size: 14px;
+    font-family: Poppins;
+    font-weight: 400;
+    line-height: 22px;
+}
+.list {
+}
+
+.about {
+    margin-bottom: 220px;
+}
+.about-phone {
+    margin-right: 100px;
+    display: inline-block;
+    vertical-align: top
+}
+.abour-text {
+    display: inline-block;
+    max-width: 500px;
+}
+.abour-text h5{
+    margin-bottom: 25px;
+    padding-top: 30px;
+}
+.abour-text h2{
+    color: #1E1C31;
+    font-size: 48px;
+    font-family: Poppins;
+    font-weight: 600;
+    line-height: 61px;
+    margin-bottom: 55px;
+}
+.abour-text p{
+    color: rgba(0, 0, 0, 0.50);
+    font-size: 14px;
+    font-family: Poppins;
+    font-weight: 400;
+    line-height: 25px;
+    letter-spacing: 0.42px;
+    margin-bottom: 70px;
+}
+.abour-text a{
+    padding: 20px 37px;
+    background-color: #4270EC;
+    border-radius: 15px;
+}
+.studios {
+    margin-bottom: 210px;
+}
+.studios-text {
+    margin-bottom: 100px;
+}
+.text-left {
+    max-width: 588px;
+    display: inline-block;
+    margin-right: 70px;
+}
+.text-left h5{
+    margin-bottom: 15px;
+}
+.text-left h2{
+    color: #1E1C31;
+    font-size: 48px;
+    font-family: Poppins;
+    font-weight: 600;
+    line-height: 61px;
+}
+.text-right {
+    vertical-align: top;
+    width: 526px;
+    display: inline-block;
+}
+.text-right p{
+    color: rgba(0, 0, 0, 0.50);
+    font-size: 14px;
+    font-family: Poppins;
+    font-weight: 400;
+    line-height: 25px;
+    letter-spacing: 0.42px;
+    margin-bottom: 17px;
+}
+.text-right a{
+    color: #4270EC;
+    font-size: 14px;
+    font-family: Poppins;
+    font-weight: 500;
+    text-transform: uppercase;
+    line-height: 25px;
+    letter-spacing: 0.84px;
+}
+.text-right a::after{
+    content: "\2192";
+    
+}
+.studios-phone2, .studios-phone3,.studios-phone4{
+    width: 360px;
+    height: 480px;
+    display: inline-block;
+    margin-right: 40px;
+}
+.studios-phone4{
+    margin-right: 0;
+}
+.studios-phone2 {
+
+}
+.studios-phone3 {
+}
+.studios-phone4 {
+}
+.clients {
+    margin-bottom: 190px;
+}
+.testimonial-header{
+    text-align: center;
+}
+.testimonial-header h1{
+    color: #1E1C31;
+    font-size: 48px;
+    font-family: Poppins;
+    font-weight: 600;
+    line-height: 61px;
+    max-width: 625px;
+    margin: 0 auto;
+}
+/*  */
+.testimonial-slider {
+    position: relative;
+    margin-top: 20px;
+    height: 500px; /* Высота должна быть достаточной для всех изображений */
+  }
+  
+  .testimonial-images {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+  }
+  
+  /* Основное центральное изображение */
+  .testimonial-main-image {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    /* border-radius: 50%;
+    z-index: 2; */
+  }
+  
+  /* Стили для первой пары боковых изображений */
+  .testimonial-side-image:nth-child(1),
+  .testimonial-side-image:nth-child(7) {
+    position: absolute;
+    width: 60px;
+    top: 40px; /* Отступ сверху от основного заголовка */
+  }
+  
+  .testimonial-side-image:nth-child(1) { left: 0; } /* Слева */
+  .testimonial-side-image:nth-child(7) { right: 0; } /* Справа */
+  
+  /* Стили для второй пары боковых изображений */
+  .testimonial-side-image:nth-child(2),
+  .testimonial-side-image:nth-child(6) {
+    position: absolute;
+    width: 40px;
+    top: 215px;
+  }
+  
+  .testimonial-side-image:nth-child(2) { left: 112px; } /* Слева */
+  .testimonial-side-image:nth-child(6) { right: 112px; } /* Справа */
+  
+  /* Стили для третьей пары боковых изображений */
+  .testimonial-side-image:nth-child(3),
+  .testimonial-side-image:nth-child(5) {
+    position: absolute;
+    width: 20px;
+    top: 400px;
+  }
+  
+  .testimonial-side-image:nth-child(3) { left: 30px; } /* Слева */
+  .testimonial-side-image:nth-child(5) { right: 30px; } /* Справа */
+  /* Стили для текста отзыва */
+.testimonial-text {
+    color: black;
+    font-size: 14px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    line-height: 22px;
+    width: 500px;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 40px; /* Отступ сверху 40px, автоматические отступы слева и справа для центрирования */
+     /* Если текст должен быть выровнен по левому краю внутри блока */
+  }
+  
+  /* Стили для имени автора */
+  .testimonial-author {
+    margin-top: 30px; /* Отступ сверху 30px */
+    font-family: 'Poppins', sans-serif;
+    text-align: center; /* Центрирование текста */
+  }
+  
+  /* Добавляем анимацию для слайдов */
+@keyframes slideIn {
+    from {
+      transform: translateX(100%);
+      opacity: 0;
+    }
+    to {
+      transform: translateX(0);
+      opacity: 1;
+    }
+  }
+  
+  .testimonial-slide {
+    animation: slideIn 0.5s ease-out;
+    display: none;
+  }
+  .active{
+    display:block
+  }
+  .dot {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+    text-align: center;
+  }
+  
+  .dot:hover {
+    background-color: #717171;
+  }
+  
+/*  */
+.clients-burger {
+}
+.burger-text {
+    
+}
+.blog {
+    max-width: 1169px;
+    margin: 0 auto;
+    margin-bottom: 100px;
+}
+.blog-text h5, .blog-text h2{
+    text-align: center;
+}
+.blog-text h5{
+    margin-bottom: 17px;
+}
+.blog-text h2{
+    color: #1E1C31;
+    font-size: 48px;
+    font-family: Poppins;
+    font-weight: 600;
+    line-height: 61px;
+    letter-spacing: 1.44px;
+    margin-bottom: 90px;
+}
+.list2-li{
+    display: inline-block;
+    max-width: 361px;
+    
+}
+.list2-li:not(:last-child){
+    margin-right: 39px;
+}
+.list2-li::before{
+    content: "";
+    display: block;
+    background: url(../img/blog1.png) no-repeat;
+    width: 360px;
+    height: 241px;
+    margin-bottom: 29px;
+}
+.list2-text{
+    /* display: inline-block; */
+    max-width: 289px;
+    padding-left: 21px;
+}
+.list2-text h4{
+    color: rgba(30, 28, 49, 0.60);
+    font-size: 12px;
+    font-family: Poppins;
+    font-weight: 500;
+    line-height: 19px;
+    margin-bottom: 14px;
+}
+.list2-text h4 span{
+    margin: 0 4.5px;
+}
+.list2-text p{
+    color: #1E1C31;
+    font-size: 14px;
+    font-family: Poppins;
+    font-weight: 400;
+    line-height: 22px;
+    margin-bottom: 17px;
+}
+.list2-text a{
+    color: #4270EC;
+    font-size: 14px;
+    font-family: Poppins;
+    font-weight: 400;
+    line-height: 22px;
+}
+.blog-content {
+
+}
+.card {
+    max-width: 1160px;
+    margin: 0 auto;
+    margin-bottom: 100px;
+}
+.card h2{
+    display: inline-block;
+    max-width: 537px;
+    margin-right: 39px;
+    color: white;
+    font-size: 40px;
+    font-family: Poppins;
+    font-weight: 600;
+    line-height: 51px;
+    vertical-align: middle;
+}
+.card-block a{
+    color: #4270EC;
+    font-size: 14px;
+    font-family: Poppins;
+    font-weight: 600;
+    line-height: 22px;
+    letter-spacing: 0.28px;
+    padding: 14px 36px 13px 36px;
+    background-color: #FFFFFF;
+    border-radius: 12px;
+}
+.card{
+    padding: 100px 209px 86px 211px;
+    background: rgb(82,127,246);
+    background: linear-gradient(58deg, rgba(82,127,246,1) 0%, rgba(225,109,217,1) 67%, rgba(255,204,112,1) 100%);
+    border-radius: 30px;
+}
+.card-block{
+
+}
+.footer-list {
+}
+.bottom{
+    margin: 0 auto;
+    max-width: 1160px;
+}
+.block7 h1{
+    font-size: 24px;
+    text-align: center;
+    font-weight: 700;
+    color: green;
+}
+.block7{
+    margin-top: 50px;
+}
+.block7 p{
+    font-size: 16px;
+    color: black;
+}
+.active{
+    color: #4270EB; /* Синий цвет для активной ссылки */
+    font-weight: bold;
+}
+
+.App {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    }
+    .App .Routes{
+        flex-grow: 1;
+    }    
+    html, body {
+        height: 100%;
+        margin: 0;
+        padding: 0;
+      }
+      
+    .testimonial-pagination{
+        margin-top: 200px; /* Отступ сверху для отделения от основного контента слайдера */
+        display: flex;
+        justify-content: center;
+    }
+
+    .slide-image {
+        width: 100px; /* или любой другой фиксированный размер */
+        height: 100px; /* или любой другой фиксированный размер */
+        object-fit: cover; /* Это гарантирует, что изображения будут правильно масштабироваться */
+      }
+      
+
+    /* SubscribeForm.css */
+.subscribe-container {
+    position: relative;
+    color: #222136;
+    font-family: 'Poppins', sans-serif;
+  }
+  
+  .subscribe-title {
+    position: absolute;
+    top: 0px;
+    right: 190px;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 28px;
+  }
+  
+  .email-input-container {
+    position: absolute;
+    top: 44px;
+    right: 0px;
+    width: 280px;
+    height: 40px;
+    /* background: #ECF0FC;
+    border-radius: 9px; */
+    display: flex;
+    align-items: center;
+    /* padding: 0 10px; */
+  }
+  
+  /* .email-placeholder {
+    color: rgba(62, 60, 105, 0.8);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 18px;
+    margin-right: 10px;
+    text-align: center;
+  } 
+  */
+  
+  /* .email-input {
+    border: none;
+    outline: none;
+    flex-grow: 5;
+    border-radius: 10px;
+  } */
+  
+  .subscribe-button {
+  }
+  
+
+  .subscribe-form {
+    --main-focus: #2d8cf0;
+    --font-color: #FEFEFE;
+    --font-color-sub: #a91919;
+    --bg-color: #e3e3e3;
+    --main-color: #1d5998;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    display: flex;
+    flex-direction: row;
+    width: 250px;
+    height: 35px;
+    border-radius: 5px;
+    /* box-shadow: 4px 4px var(--main-color); */
+  }
+  
+  .subscribe-input {
+    width: 100%;
+    height: 100%;
+    padding: 5px 10px;
+    border: 2px solid var(--main-color);
+    border-right: 0;
+    border-radius: 15px 0px 0px 15px;
+    font-size: 15px;
+    font-weight: 500;
+    color: var(--font-color);
+    background: var(--bg-color);
+  }
+  
+  .subscribe-btn {
+    width: 100px;
+    height: 100%;
+    border: 2px solid var(--main-focus);
+    border-radius: 0 15px 15px 0;
+    background-color: var(--main-focus);
+    font-size: 15px;
+    letter-spacing: 1px;
+    font-weight: 500;
+    color: var(--font-color);
+    cursor: pointer;
+  }
+  
+  .subscribe-input:focus {
+    outline: none;
+    border: 2px solid var(--main-focus);
+    border-right: 0;
+  }
+      
